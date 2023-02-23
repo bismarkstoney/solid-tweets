@@ -3,10 +3,10 @@ import configparser
 import pandas as pd
 
 # read configs
-consumer_key="QCrju6WNwJBXHhe2P3MYOLHlU"
-consumer_secret_key="wlPbD9RqWlFvgcsfUirXhp1Gem62e5aTfs09CIuyzMivHXAtWm"
-access_token="900767746992078848-DMrc98KDLPjQcrlOwWsZQvpueskRtNM"
-access_secret_token="jnjGgOV0lJnuaJ7ULomulhH5OwOcjcpzSG2P8HyRpauth"
+consumer_key=""
+consumer_secret_key=""
+access_token=""
+access_secret_token=""
 
 # authentication
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret_key)
